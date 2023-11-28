@@ -1,0 +1,32 @@
+.clock{
+    width: 65x;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    i{
+        
+        font-size: 25px;
+        color: lightgray;
+    }
+}
+.link{
+    color:rgb(0, 0, 0);
+    text-decoration: none; 
+    background-color: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
